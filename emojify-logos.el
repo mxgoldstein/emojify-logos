@@ -31,7 +31,7 @@
 
 ;;; Code:
 
-(setq emojify-logos-dir (concat user-emacs-directory "emojis/logos/"))
+(setq emojify-logos-dir (concat user-emacs-directory "/emojis/logos/"))
 (setq emojify-logos-download-url "https://raw.githubusercontent.com/mxgoldstein/emojify-logos/master/logos/")
 
 (setq emojify-logo-list '("C" "C++" "Emacs" "Haskell" "LaTeX" "Org" "PDF" "Perl" "Python" "Ruby"))
