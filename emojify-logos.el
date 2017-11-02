@@ -31,7 +31,7 @@
 
 ;;; Code:
 
-(setq emojify-logos-dir (concat user-emacs-directory "/emojis/logos/"))
+(setq emojify-logos-dir (concat emojify-emojis-dir "/logos/"))
 (setq emojify-logos-download-url "https://raw.githubusercontent.com/mxgoldstein/emojify-logos/master/logos/")
 
 (setq emojify-logo-list '("C" "C++" "Emacs" "Haskell" "LaTeX" "Org" "PDF" "Perl" "Python" "Ruby"))
@@ -39,7 +39,7 @@
 (defun emojify-logos-download ()
   "(Re-)Download logo emojis from the ‘emojify-logos-download-url’."
   (interactive)
-  (if (not (file-exists-p emojify-logos-dir)) (mkdir emojify-logos-dir))
+  (if (not (file-exists-p emojify-logos-dir)) (mkdir emojify-logos-dir t))
   (let (logo)
     (dolist (logo emojify-logo-list)
       (url-copy-file (concat emojify-logos-download-url (downcase logo) ".png") (concat emojify-logos-dir (downcase logo) ".png") t)))
@@ -60,5 +60,3 @@
 (provide 'emojify-logos)
 
 ;;; emojify-logos.el ends here
-
-
