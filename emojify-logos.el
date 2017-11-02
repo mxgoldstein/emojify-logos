@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2017 mxgoldstein
 
-;; This script is licensed under 
+;; This script is licensed under
 
 ;; Author: mxgoldstein <m_goldstein@gmx.net>
 ;; URL: https://github.com/mxgoldstein/emojify-logos
@@ -17,7 +17,7 @@
 ;;; Commentary:
 
 ;; This package adds logo icons for various programming languages and tools to emojify.el
-;; All icons are the property of their respective owners and may be trademarked and/or restricted in the way they may be used. See COPYRIGHT.MD for more details.
+;; All icons are the property of their respective owners and may be trademarked and/or restricted in the way they may be used.  See COPYRIGHT.MD for more details.
 
 ;;; TODO
 
@@ -29,19 +29,22 @@
 (require 'emojify)
 (require 'url)
 
+;;; Code:
+
 (setq emojify-logos-dir (concat user-emacs-directory "emojis/logos/"))
 (setq emojify-logos-download-url "https://raw.githubusercontent.com/mxgoldstein/emojify-logos/master/logos/")
 
 (setq emojify-logo-list '("C" "C++" "Emacs" "Haskell" "LaTeX" "Org" "PDF" "Perl" "Python" "Ruby"))
 
 (defun emojify-logos-download ()
-  "(Re-)Download logo emojis from the emojify-logos-download-url"
+  "(Re-)Download logo emojis from the ‘emojify-logos-download-url’."
   (interactive)
-  (if (file-exists-p emojify-logo-dir) (mkdir emojify-logo-dir))
+  (if (file-exists-p emojify-logos-dir) (mkdir emojify-logo-dir))
   (let (logo)
     (dolist (logo emojify-logo-list)
       (url-copy-file (concat emojify-logos-download-url (downcase logo) ".png") (concat emojify-logos-dir (downcase logo) ".png") t)))
-  (message "Downloaded logos"))
+  (message "Downloaded logos")
+  (emojify-set-emoji-data))
   
   
 (let (logo)
