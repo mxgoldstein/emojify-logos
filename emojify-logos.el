@@ -39,7 +39,7 @@
 (defun emojify-logos-download ()
   "(Re-)Download logo emojis from the ‘emojify-logos-download-url’."
   (interactive)
-  (if (file-exists-p emojify-logos-dir) (mkdir emojify-logo-dir))
+  (if (not (file-exists-p emojify-logos-dir)) (mkdir emojify-logos-dir))
   (let (logo)
     (dolist (logo emojify-logo-list)
       (url-copy-file (concat emojify-logos-download-url (downcase logo) ".png") (concat emojify-logos-dir (downcase logo) ".png") t)))
