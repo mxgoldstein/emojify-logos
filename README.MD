@@ -17,18 +17,18 @@ You can also download / update your logo set using ``M-x emojify-logos-download`
 
 ## Logos
 
-| Code        | Icon                                               |
-|:-----------:|:--------------------------------------------------:|
-|``:c:``      |<img src="logos/c.png" height="16" width="16"></img>    |
-|``:c++:``    |<img src="logos/c++.png" height="16" width="16"></img>|
-|``:emacs:``  |<img src="logos/emacs.png" height="16" width="16"></img>|
-|``:haskell:``|<img src="logos/haskell.png" height="16" width="16"></img>|
-|``:latex:``|<img src="logos/latex.png" height="16" width="16"></img>|
-|``:org:``|<img src="logos/org.png" height="16" width="16"></img>|
-|``:pdf:``|<img src="logos/pdf.png" height="16" width="16"></img>|
-|``:perl:``|<img src="logos/perl.png" height="16" width="16"></img>|
-|``:python:``|<img src="logos/python.png" height="16" width="16"></img>|
-|``:ruby:``|<img src="logos/ruby.png" height="16" width="16"></img>|
+| Code        | Icon                                          |
+|:-----------:|:---------------------------------------------:|
+|``:c:``      |<img src="logos/c.png" height="16"></img>      |
+|``:c++:``    |<img src="logos/c++.png" height="16"></img>    |
+|``:emacs:``  |<img src="logos/emacs.png" height="16"></img>  |
+|``:haskell:``|<img src="logos/haskell.png" height="16"></img>|
+|``:latex:``  |<img src="logos/latex.png" height="16"></img>  |
+|``:org:``    |<img src="logos/org.png" height="16"></img>    |
+|``:pdf:``    |<img src="logos/pdf.png" height="16"></img>    |
+|``:perl:``   |<img src="logos/perl.png" height="16"></img>   |
+|``:python:`` |<img src="logos/python.png" height="16"></img> |
+|``:ruby:``   |<img src="logos/ruby.png" height="16"></img>   |
 
 ## TODO
 * Add more logos for languages / modes etc.
