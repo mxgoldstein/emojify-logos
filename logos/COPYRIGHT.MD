@@ -30,6 +30,11 @@
 * License: MIT-like license (https://wiki.haskell.org/HaskellWiki:Copyrights)
 * Trademark: None
 
+## js.png (:js:)
+* Author: Chris Williams
+* License: Not copyrightable / Public domain
+* Trademark: None
+
 ## latex.png (:latex:)
 * Author: Leslie Lamport
 * License: Not copyrightable / Public domain

@@ -34,7 +34,7 @@
 (setq emojify-logos-dir (concat emojify-emojis-dir "/logos/"))
 (setq emojify-logos-download-url "https://raw.githubusercontent.com/mxgoldstein/emojify-logos/master/logos/")
 
-(setq emojify-logo-list '("C" "C++" "Emacs" "Erlang" "Haskell" "LaTeX" "Org" "PDF" "Perl" "Python" "Ruby"))
+(setq emojify-logo-list '("C" "C++" "Emacs" "Erlang" "Haskell" "JS" "LaTeX" "Org" "PDF" "Perl" "Python" "Ruby"))
 
 (defun emojify-logos-download ()
   "(Re-)Download logo emojis from the ‘emojify-logos-download-url’."
