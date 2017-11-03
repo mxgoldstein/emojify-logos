@@ -24,10 +24,10 @@
 ;; Replace low-quality C icon
 ;; Find a (somewhat) free icon for java
 
+;;; Code:
+
 (require 'emojify)
 (require 'url)
-
-;;; Code:
 
 (setq emojify-logos-dir (concat emojify-emojis-dir "/logos/"))
 (setq emojify-logos-download-url "https://raw.githubusercontent.com/mxgoldstein/emojify-logos/master/logos/")
