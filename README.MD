@@ -22,6 +22,7 @@ You can also download / update your logo set using ``M-x emojify-logos-download`
 |``:c:``      |<img src="logos/c.png" height="16"></img>      |
 |``:c++:``    |<img src="logos/c++.png" height="16"></img>    |
 |``:emacs:``  |<img src="logos/emacs.png" height="16"></img>  |
+|``:erlang:`` |<img src="logos/erlang.png" height="16"></img> |
 |``:haskell:``|<img src="logos/haskell.png" height="16"></img>|
 |``:latex:``  |<img src="logos/latex.png" height="16"></img>  |
 |``:org:``    |<img src="logos/org.png" height="16"></img>    |

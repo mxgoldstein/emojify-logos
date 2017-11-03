@@ -18,6 +18,12 @@
 * License: GNU GPL v3+
 * Trademark: None
 
+## erlang.png (:erlang:)
+
+* Author: Not copyrightable / Public domain
+* Copyright: None
+* Trademark: "The name "Erlang" is a trademark of Ericsson"
+
 ## haskell.png (:haskell:)
 
 * Author: Darin Thompson and Jeff Wheeler
