@@ -3,16 +3,32 @@ This package adds logo icons for various programming languages and tools to emoj
 
 ## Installation
 ### From this repository
-Either clone this repository or download it as a zip and place ``emojify-logos.el`` in a directory within your emacs-load-path.  
+Either clone this repository or (download it as a zip) and visit ``emojify-logos.el`` in Emacs, then just install it using ``M-x package-install-from-buffer``.  
 You can optionally move / link the ``logos`` folder to your ``.emacs/emojis`` folder (or just download it later on using ``M-x emojify-logos-download``).
 
 ## Usage
 Just add the following line to your .emacs file:
-```
+```elisp
 (require 'emojify-logos)
 ```
+And you're ready to roll!
 
 You can also download / update your logo set using ``M-x emojify-logos-download``.
+
+## Logos
+
+| Code        | Icon                                               |
+|:-----------:|:--------------------------------------------------:|
+|``:c:``      |<img src="logos/c.png" height="16" width="16"></img>    |
+|``:c++:``    |<img src="logos/c++.png" height="16" width="16"></img>|
+|``:emacs:``  |<img src="logos/emacs.png" height="16" width="16"></img>|
+|``:haskell:``|<img src="logos/haskell.png" height="16" width="16"></img>|
+|``:latex:``|<img src="logos/latex.png" height="16" width="16"></img>|
+|``:org:``|<img src="logos/org.png" height="16" width="16"></img>|
+|``:pdf:``|<img src="logos/pdf.png" height="16" width="16"></img>|
+|``:perl:``|<img src="logos/perl.png" height="16" width="16"></img>|
+|``:python:``|<img src="logos/python.png" height="16" width="16"></img>|
+|``:ruby:``|<img src="logos/ruby.png" height="16" width="16"></img>|
 
 ## TODO
 * Add more logos for languages / modes etc.
@@ -20,8 +36,8 @@ You can also download / update your logo set using ``M-x emojify-logos-download`
 * Replace low-quality C icon
 * Find a (somewhat) free icon for Java
 
-## Usage of Icons
-For a detailed information about the copyright, licenses and trademarks attached to the logos used, see ``COPYRIGHT.MD`` in the ``logos`` folder.
+## Icon Licenses
+For a detailed information about the copyright, licenses and trademarks attached to the logos used, see [COPYRIGHT.MD](logos/COPYRIGHT.MD).
 
 ## License
 This program is free software; you can redistribute it and/or
@@ -29,4 +45,4 @@ modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 3
 of the License, or (at your option) any later version.
 
-See ``LICENSE`` for more details.
+See [LICENSE](LICENSE) for more details.
