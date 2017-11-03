@@ -2,8 +2,6 @@
 
 ;; Copyright (C) 2017 mxgoldstein
 
-;; This script is licensed under
-
 ;; Author: mxgoldstein <m_goldstein@gmx.net>
 ;; URL: https://github.com/mxgoldstein/emojify-logos
 ;; Version: 0.1
