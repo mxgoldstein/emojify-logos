@@ -34,7 +34,7 @@
   (dolist (logo emojify-logo-list)
     (add-to-list 'emojify-user-emojis
                  `(,(concat ":" (downcase logo) ":") . (( "name" . ,logo )
-                                                         ("image" . ,(concat (file-name-directory (or load-file-name buffer-file-name)) (downcase logo) ".png"))
+                                                         ("image" . ,(concat (file-name-directory (or load-file-name buffer-file-name)) "/logos/" (downcase logo) ".png"))
                                                          ("style" . "github"))))))
 
 ;; Update emoji set
