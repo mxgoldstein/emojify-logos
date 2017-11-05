@@ -27,29 +27,14 @@
 ;;; Code:
 
 (require 'emojify)
-(require 'url)
-
-(setq emojify-logos-dir (concat emojify-emojis-dir "/logos/"))
-(setq emojify-logos-download-url "https://raw.githubusercontent.com/mxgoldstein/emojify-logos/master/logos/")
 
 (setq emojify-logo-list '("C" "C++" "Emacs" "Erlang" "Haskell" "JS" "LaTeX" "Org" "PDF" "Perl" "Python" "Ruby"))
 
-(defun emojify-logos-download ()
-  "(Re-)Download logo emojis from the ‘emojify-logos-download-url’."
-  (interactive)
-  (if (not (file-exists-p emojify-logos-dir)) (mkdir emojify-logos-dir t))
-  (let (logo)
-    (dolist (logo emojify-logo-list)
-      (url-copy-file (concat emojify-logos-download-url (downcase logo) ".png") (concat emojify-logos-dir (downcase logo) ".png") t)))
-  (message "Downloaded logos")
-  (emojify-set-emoji-data))
-  
-  
 (let (logo)
   (dolist (logo emojify-logo-list)
     (add-to-list 'emojify-user-emojis
                  `(,(concat ":" (downcase logo) ":") . (( "name" . ,logo )
-                                                         ("image" . ,(concat emojify-logos-dir (downcase logo) ".png"))
+                                                         ("image" . ,(concat (file-name-directory (or load-file-name buffer-file-name)) (downcase logo) ".png"))
                                                          ("style" . "github"))))))
 
 ;; Update emoji set

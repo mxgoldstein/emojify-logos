@@ -3,8 +3,7 @@ This package adds logo icons for various programming languages and tools to emoj
 
 ## Installation
 ### From this repository
-Either clone this repository or (download it as a zip) and visit ``emojify-logos.el`` in Emacs, then just install it using ``M-x package-install-from-buffer``.  
-You can optionally move / link the ``logos`` folder to your ``.emacs/emojis`` folder (or just download it later on using ``M-x emojify-logos-download``).
+Either clone this repository or (download it as a zip) and move its content to a path within ``load-path``.
 
 ## Usage
 Just add the following line to your .emacs file:
@@ -12,8 +11,6 @@ Just add the following line to your .emacs file:
 (require 'emojify-logos)
 ```
 And you're ready to roll!
-
-You can also download / update your logo set using ``M-x emojify-logos-download``.
 
 ## Logos
 
