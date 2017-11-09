@@ -14,21 +14,25 @@ And you're ready to roll!
 
 ## Logos
 
-| Code        | Icon                                          |
-|:-----------:|:---------------------------------------------:|
-|``:c:``      |<img src="logos/c.png" height="16"></img>      |
-|``:c++:``    |<img src="logos/c++.png" height="16"></img>    |
-|``:emacs:``  |<img src="logos/emacs.png" height="16"></img>  |
-|``:erlang:`` |<img src="logos/erlang.png" height="16"></img> |
-|``:haskell:``|<img src="logos/haskell.png" height="16"></img>|
-|``:js:``     |<img src="logos/js.png" height="16"></img>     |
-|``:latex:``  |<img src="logos/latex.png" height="16"></img>  |
-|``:org:``    |<img src="logos/org.png" height="16"></img>    |
-|``:pdf:``    |<img src="logos/pdf.png" height="16"></img>    |
-|``:perl:``   |<img src="logos/perl.png" height="16"></img>   |
-|``:php:``    |<img src="logos/php.png" height="16"></img>    |
-|``:python:`` |<img src="logos/python.png" height="16"></img> |
-|``:ruby:``   |<img src="logos/ruby.png" height="16"></img>   |
+| Code           | Icon                                             |
+|:--------------:|:------------------------------------------------:|
+|``:angularjs:`` |<img src="logos/angularjs.png" height="16"></img> |
+|``:c:``         |<img src="logos/c.png" height="16"></img>         |
+|``:css:``       |<img src="logos/css.png" height="16"></img>       |
+|``:c++:``       |<img src="logos/c++.png" height="16"></img>       |
+|``:emacs:``     |<img src="logos/emacs.png" height="16"></img>     |
+|``:erlang:``    |<img src="logos/erlang.png" height="16"></img>    |
+|``:haskell:``   |<img src="logos/haskell.png" height="16"></img>   |
+|``:html5:``     |<img src="logos/html5.png" height="16"></img>     |
+|``:javascript:``|<img src="logos/javascript.png" height="16"></img>|
+|``:latex:``     |<img src="logos/latex.png" height="16"></img>     |
+|``:org:``       |<img src="logos/org.png" height="16"></img>       |
+|``:pdf:``       |<img src="logos/pdf.png" height="16"></img>       |
+|``:perl:``      |<img src="logos/perl.png" height="16"></img>      |
+|``:php:``       |<img src="logos/php.png" height="16"></img>       |
+|``:python:``    |<img src="logos/python.png" height="16"></img>    |
+|``:ruby:``      |<img src="logos/ruby.png" height="16"></img>      |
+|``:typescript:``|<img src="logos/typescript.png" height="16"></img>|
 
 ## TODO
 * Add more logos for languages / modes etc.

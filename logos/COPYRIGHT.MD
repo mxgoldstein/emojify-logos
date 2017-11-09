@@ -1,9 +1,19 @@
 # Copyright
 
+## angularjs.png (:angularjs:)
+* Author: IgorMinar
+* License: MIT License
+* Trademark: None
+
 ## c.png (:c:)
 
 * Author: Davidgutierrezalvarez
 * License: CC0
+* Trademark: None
+
+## css3.png (:css3:)
+* Author: W3C
+* License: CC-BY 3.0
 * Trademark: None
 
 ## c++.png (:c++:)
@@ -30,7 +40,12 @@
 * License: MIT-like license (https://wiki.haskell.org/HaskellWiki:Copyrights)
 * Trademark: None
 
-## js.png (:js:)
+## html5.png (:html5:)
+* Author: W3C
+* License: CC-BY 3.0
+* Trademark: None
+
+## javascript.png (:javascript:)
 * Author: Chris Williams
 * License: Not copyrightable / Public domain
 * Trademark: None
@@ -74,4 +89,9 @@
 
 * Author: Yukihiro Matsumoto
 * License: CC-BY-SA 2.5
+* Trademark: None
+
+## typescript.png (:typescript:)
+* Author: Chris Williams
+* License: Not copyrightable / Public domain
 * Trademark: None
