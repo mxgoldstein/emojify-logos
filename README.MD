@@ -18,7 +18,7 @@ And you're ready to roll!
 |:--------------:|:------------------------------------------------:|
 |``:angularjs:`` |<img src="logos/angularjs.png" height="16"></img> |
 |``:c:``         |<img src="logos/c.png" height="16"></img>         |
-|``:css:``       |<img src="logos/css.png" height="16"></img>       |
+|``:css3:``      |<img src="logos/css3.png" height="16"></img>       |
 |``:c++:``       |<img src="logos/c++.png" height="16"></img>       |
 |``:emacs:``     |<img src="logos/emacs.png" height="16"></img>     |
 |``:erlang:``    |<img src="logos/erlang.png" height="16"></img>    |
