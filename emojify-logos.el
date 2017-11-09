@@ -28,7 +28,7 @@
 
 (require 'emojify)
 
-(setq emojify-logo-list '("C" "C++" "Emacs" "Erlang" "Haskell" "JS" "LaTeX" "Org" "PDF" "Perl" "Python" "Ruby"))
+(setq emojify-logo-list '("C" "C++" "Emacs" "Erlang" "Haskell" "JS" "LaTeX" "Org" "PDF" "Perl" "PHP" "Python" "Ruby"))
 
 (let (logo)
   (dolist (logo emojify-logo-list)

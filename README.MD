@@ -26,6 +26,7 @@ And you're ready to roll!
 |``:org:``    |<img src="logos/org.png" height="16"></img>    |
 |``:pdf:``    |<img src="logos/pdf.png" height="16"></img>    |
 |``:perl:``   |<img src="logos/perl.png" height="16"></img>   |
+|``:php:``    |<img src="logos/php.png" height="16"></img>    |
 |``:python:`` |<img src="logos/python.png" height="16"></img> |
 |``:ruby:``   |<img src="logos/ruby.png" height="16"></img>   |
 

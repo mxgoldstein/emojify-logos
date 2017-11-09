@@ -46,17 +46,23 @@
 * License: GPL v2+
 * Trademark: None
 
+## pdf.png (:pdf:)
+
+* Author: Iconmoon
+* License: CC-BY 3.0
+* Trademark: Questionable
+
 ## perl.png (:perl:)
 
 * Author: Perl Foundation
 * License: Custom (http://www.perlfoundation.org/perl_trademark)
 * Trademark: Yes, held by the Perl Foundation
 
-## pdf.png (:pdf:)
+## php.png (:php:)
 
-* Author: Iconmoon
-* License: CC-BY 3.0
-* Trademark: Questionable
+* Author: The PHP Group
+* License: Custom (http://php.net/download-logos.php)
+* Trademark: Yes, held by The PHP Group
 
 ## python.png (:python:)
 
