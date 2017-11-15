@@ -1,9 +1,18 @@
-# emojify-logos
-This package adds logo icons for various programming languages and tools to emojify.el
+# emojify-logos [![MELPA](https://melpa.org/packages/emojify-logos-badge.svg)](https://melpa.org/#/emojify-logos)
+This package adds logos for various programming languages and tools to emojify.el
 
 ## Installation
+### From MELPA (Recommended)
+If you don't already have MELPA, you can read how to set it up [here](https://melpa.org/#/getting-started).
+
+To install emojify-logos type the following two commands
+1. ``M-x package-refresh-contents``
+2. ``M-x package-install RET emojify-logos``
+
+And package.el will take care of the rest!
+
 ### From this repository
-Either clone this repository or (download it as a zip) and move its content to a path within ``load-path``.
+Either clone this repository or (download it as a zip) and move its contents to a path within ``load-path``.
 
 ## Usage
 Just add the following line to your .emacs file:
