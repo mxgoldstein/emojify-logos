@@ -47,7 +47,7 @@
 
 ## javascript.png (:javascript:)
 * Author: Chris Williams
-* License: Not copyrightable / Public domain
+* License: MIT License
 * Trademark: None
 
 ## latex.png (:latex:)
