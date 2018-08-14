@@ -20,7 +20,6 @@
 ;;; TODO
 
 ;; Add more logos for languages / modes etc.
-;; Use uniform icon sizes
 ;; Replace low-quality C icon
 ;; Find a (somewhat) free icon for java
 
